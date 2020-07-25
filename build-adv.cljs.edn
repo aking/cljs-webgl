@@ -1,0 +1,13 @@
+^{:ring-server-options {;:host "0.0.0.0"
+                        }
+  :log-file "fw-adv.log"
+  :client-log-level :warning}
+{:main webgl.core
+ :optimizations :advanced
+ :install-deps false
+ :output-to "resources/public/webgl.js"
+ :externs ["resources/externs/twgl.extern.js"]
+ :foreign-libs [{:file "resources/libs/twgl.min.js"
+                 :provides ["twgl"]}]}
+
+

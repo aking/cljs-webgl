@@ -1,0 +1,12 @@
+^{:ring-server-options {};:host "0.0.0.0"
+
+  :log-file "fw-dev.log"
+  :client-log-level :warning
+  :open-url "https://[[server-hostname]]:9533/dev.html"}
+{:main webgl.core
+ :optimizations :none
+ :install-deps false
+ :foreign-libs [{:file "resources/libs/twgl-full.js"
+                 :provides ["twgl"]}]}
+
+

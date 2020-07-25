@@ -1,0 +1,44 @@
+#fps {
+  position: absolute;
+  left : 5px;
+  top: 5px;
+
+  /* pointer-events: none; */
+  border-radius: 3px;
+  display: inline-block;
+  padding: 2px 4px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index:10;
+}
+
+/* The Modal (background) */
+.modal {
+  /* display: none; */
+  position: fixed; /* Stay in place */
+  z-index: 50; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  /* margin: 15% auto; /1* 15% from the top and centered *1/ */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}

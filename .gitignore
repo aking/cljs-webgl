@@ -12,3 +12,8 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+.rebel_readline_history
+fw*log
+
+# Don't save generated Advanced compiled artifact
+resources/public/webgl.js

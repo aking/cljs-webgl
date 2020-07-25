@@ -28,6 +28,7 @@
 
    :--project--
    [;___________________________
+    ".gitignore"
     "files.clj"
     "deps.edn"
     "build-adv.cljs.edn"

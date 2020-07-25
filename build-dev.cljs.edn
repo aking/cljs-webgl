@@ -2,7 +2,7 @@
 
   :log-file "fw-dev.log"
   :client-log-level :warning
-  :open-url "https://[[server-hostname]]:9533/dev.html"}
+  :open-url "http://[[server-hostname]]:[[server-port]]/dev.html"}
 {:main webgl.core
  :optimizations :none
  :install-deps false

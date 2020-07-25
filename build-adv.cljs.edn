@@ -1,5 +1,5 @@
-^{:ring-server-options {;:host "0.0.0.0"
-                        }
+^{:ring-server-options {};:host "0.0.0.0"
+
   :log-file "fw-adv.log"
   :client-log-level :warning}
 {:main webgl.core

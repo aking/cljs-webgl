@@ -1,9 +1,8 @@
 # cljs-webgl
-#
-# by: Adam King
+
+by: Adam King
 
 A starting project that uses ClojureScript with WebGL and Figwheel
-
 
 Install:
 

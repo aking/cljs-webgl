@@ -56,8 +56,8 @@
   ;;----------------------------------------------------------------------;;
   [timestamp]
   (let [{:keys [gl canvas prog-info buffer-info]} @|state*
-        width (.-width canvas)
-        height (.-height canvas)]
+        width (.-clientWidth canvas)
+        height (.-clientHeight canvas)]
 
     (twgl/resizeCanvasToDisplaySize canvas)
     (.viewport gl 0 0 width height)
